@@ -1,1 +1,0 @@
-# AV_django_blog6
