@@ -1,113 +1,32 @@
 {% extends "base.html" %}
 {% block content %}
+{% load static %}
 
       <div class="container-fluid works wow fadeInDown">
          <div class="row justify-content-center">
             <div class="col-xl-6 col-md-8 col-sm-12">
                <p class="text-center">
-                  Мои прекрастные работы и проекты, ничего не понятно, но очень интерестно
+                  Мои проекты и работы написанные на Python 3.<br>
+
                </p>
             </div>
          </div>
       </div>
 
-<div class="container">
 
+    <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">1</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">2</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">3</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <img src="{% static 'img/projects/1.png' %}" height="225" alt="project">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Асиннхронный парсер для сбора информации о компаниях S&P500.<br><br></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://github.com/SparklingAcidity/epam_python/tree/main/hw_10"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
                 </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
-            <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">Парсер, Aiohttp</small>
               </div>
             </div>
           </div>
@@ -115,48 +34,172 @@
 
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <img src="{% static 'img/projects/2.png' %}" height="225" alt="project">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Задачи и проекты в рамках очучающего курса в компание EPAM.<br><br></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://github.com/SparklingAcidity/epam_python"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">Обучение в EPAM</small>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <img src="{% static 'img/projects/3.png' %}" height="225" alt="project">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">REST API приложение на Flask.<br><br><br></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://github.com/SparklingAcidity/final_project_epam"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">Flask-RESTful, sawagger, poetry</small>
               </div>
             </div>
           </div>
         </div>
+
         <div class="col">
           <div class="card shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-
+            <img src="{% static 'img/projects/4.png' %}" height="225" alt="project">
             <div class="card-body">
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text">Сайт на Django(сервис с кинофильмами). В проекте реализованы: модели, шаблоны, наследование, усовершенствование админки django,
+                пагинация, мультиязычность, авторизация и регистрация через django allauth, поиск по сайту, создание отвывов.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                  <a href="https://github.com/SparklingAcidity/AV_django_blog4_movies"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
                 </div>
-                <small class="text-muted">9 mins</small>
+                <small class="text-muted">Django</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/projects/5.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Блог на Flask.<br> В проекте реализованы:
+                работа с формами и моделями, система регистрации и авторизации, отзывов для пользователей.<br><br>
+              <u> <a href="https://app-for-liis.herokuapp.com">Посмотреть демо сайта на Heroku</a></u><br><br>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/AV_flask_blog2"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Flask</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/projects/6.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Интернет магазин на Django.<br>
+                В проекте реализованы: работа с формами и моделями, работа с HTML, CSS, JS, миксины, шаблоны и наследование, работа с изображениями, создание и обработка заказов.<br><br></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/AV_djando_shop1"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Django</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/projects/7.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Этот сайт написан с использованием технологий и инструментов:
+                Django, Docker, Postgres, JavaScript, HTML, CSS.<br><br></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/AV_django_blog6"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Django, Docker, Postgres</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/projects/8.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Телеграм бот созданный при помощи библиотеки telebot.<br><br><br></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/AV_telegram_bot1"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Telebot</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/projects/9.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Интернет магазин с возможностью создания и обработки заказов.<br>
+                Бэкенд реализован на Django, фронтент на JavaScript, HTML, CSS.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/AV_djando_shop3"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Django, JavaScript</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/projects/10.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Блог на Django.<br>
+                В проекте реализованы: работа с формами и моделями, возможность создавать посты, теги, комментарии.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/AV_django_blog1"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Django</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/projects/11.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Парсинг различных сайтов на Python при помощи библиотек BeautifulSoup, request.<br><br></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/study_project_parser"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Парсер, BeautifulSoup</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/projects/12.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Интернет магазинна Django: авторизация и регистрация пользователей, создание и обработка заказов.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/AV_djando_shop2"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Django</small>
               </div>
             </div>
           </div>
