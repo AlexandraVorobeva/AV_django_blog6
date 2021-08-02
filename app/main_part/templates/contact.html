@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+{% load static %}
 
       <!-- Contact -->
       <div class="container-fluid contact">
@@ -23,7 +24,8 @@
                         ALEKSANDRA VOROBEVA<br>
                         Saint Petersburg, Russia<br>
                         E-MAIL: V-Sash@mail.ru<br>
-                        TEL. +7-981-952-34-94
+                        TEL. +7-981-952-34-94<br><br>
+                        <a href="{% static 'img/cv.pdf' %}" download><button class="btn btn-outline-secondary" type="button">CV/ Резюме</button></a>
                      </p>
                   </div>
                </div>
