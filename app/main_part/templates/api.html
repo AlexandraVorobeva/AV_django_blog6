@@ -1,0 +1,118 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+
+      <div class="container-fluid works wow fadeInDown">
+         <div class="row justify-content-center">
+            <div class="col-xl-6 col-md-8 col-sm-12">
+               <p class="text-center">
+                  Разработанные мной CRUD API (большая часть представляют собой учебные проекты
+                 или тестовые задания).<br>
+               </p>
+            </div>
+         </div>
+      </div>
+
+
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/api/1.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Микросервис для электронного магазина.<br><br></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/Smart-Design-test"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">FastApi, Pydantic</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/api/2.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">API для юзеров написанный при помощи фреймворка FastApi.<br><br></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/Emphasoft-test"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Fast Api, Pydantic</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/api/3.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">REST API приложение на Flask, поис по файлам в папке.<br><br></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/final_project_epam"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Flask-RESTful, Sawagger, Poetry</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/api/4.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">Микросервис для нахождения разницы курса той или иной валюты относительно рубля за выбранные даты.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/MCART-test"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">FastApi</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/api/5.png' %}" height="225" alt="project">
+            <div class="card-body">
+                <p class="card-text">REST API для аутентификации юзеров.<br><br><br></p>
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/AV_flask_blog2"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">Django</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="{% static 'img/api/6.png' %}" height="225" alt="project">
+            <div class="card-body">
+              <p class="card-text">API с аутентификацией на FastApi c использованием базы данных MongoDB.<br></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://github.com/SparklingAcidity/fastapi_mongodb_study-project_2"><button type="button" class="btn btn-sm btn-outline-secondary">Код</button></a>
+                </div>
+                <small class="text-muted">FastApi, MongoDB</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+<br><br>
+
+{% endblock content %}

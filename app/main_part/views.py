@@ -6,6 +6,9 @@ def home(request):
 def projects(request):
     return render(request, 'works.html')
 
+def apiprojects(request):
+    return render(request, 'api.html')
+
 def about(request):
     return render(request, 'about.html')
 
